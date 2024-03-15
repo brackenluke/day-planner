@@ -6,7 +6,8 @@ Application using HTML, CSS, and JavaScript. Main use for the application is to 
 To save your event click the save icon on the right of the time block. Your events will be saved even after your refresh. The timeblocks will change colors to let you know about future, past, and present events. Good luck!
 
 ## Application URL:
-
+https://brackenluke.github.io/day-planner/
 ## GitHub URL:
-
+https://github.com/brackenluke/day-planner
 ## Screenshots:
+Main Page Screenshot ![Webpage Screenshot showing main Page, 9 Hour Blocks with a save button, and Current Time/Date](./develop/images/README-screenshot.png "Main Screenshot")

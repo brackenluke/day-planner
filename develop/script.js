@@ -16,7 +16,7 @@ $(function () {
   function changeColor() {
     $('.time-block').each(function() {
       const tileHours = parseInt(this.id); 
-      console.log("test", tileHours);
+      console.log(dayjs("id", tileHours));
       $(this).toggleClass('past', tileHours < hoursNow);
       $(this).toggleClass('present', tileHours === hoursNow);
       $(this).toggleClass('future', tileHours > hoursNow);

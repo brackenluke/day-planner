@@ -12,11 +12,10 @@ $(function () {
 
 // Function that will change the background color of the tiles
 
-// Problem with colors might be here or classmanager function
+// ****issue***Problem with colors might be here or classmanager function****
   function changeColor() {
     $('.time-block').each(function() {
       const tileHours = parseInt(this.id); 
-      console.log(dayjs("id", tileHours));
       $(this).toggleClass('past', tileHours < hoursNow);
       $(this).toggleClass('present', tileHours === hoursNow);
       $(this).toggleClass('future', tileHours > hoursNow);
